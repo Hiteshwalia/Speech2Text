@@ -8,14 +8,14 @@ r = sr.Recognizer()
 # Reading Audio file as source
 # listening the audio file and store in audio_text variable
 
-folder_name_1 = "Splits/audio_file2_00"
-folder_name_2 = "Splits/audio_file2_0"
-folder_name_3 = "Splits/audio_file2_"
-f = open("Text_file.txt","w+")
+folder_name_1 = "Audio_files/audio_file2_00"
+folder_name_2 = "Audio_files/audio_file2_0"
+folder_name_3 = "Audio_files/audio_file2_"
+f = open("output.txt","w+")
 
 
 # give the number of audio file chunks that you want to convert
-n= 526
+n= 101
 
 for i in range(0,n):
     if i<10:
